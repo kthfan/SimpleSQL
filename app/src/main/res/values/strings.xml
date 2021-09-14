@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">Simple SQL</string>
+    <string-array name="sql_keywords">
+        <item>ABORT</item>
+        <item>ACTION</item>
+        <item>ADD</item>
+        <item>AFTER</item>
+        <item>ALL</item>
+        <item>ALTER</item>
+        <item>ALWAYS</item>
+        <item>ANALYZE</item>
+        <item>AND</item>
+        <item>AS</item>
+        <item>ASC</item>
+        <item>ATTACH</item>
+        <item>AUTOINCREMENT</item>
+        <item>BEFORE</item>
+        <item>BEGIN</item>
+        <item>BETWEEN</item>
+        <item>BY</item>
+        <item>CASCADE</item>
+        <item>CASE</item>
+        <item>CAST</item>
+        <item>CHECK</item>
+        <item>COLLATE</item>
+        <item>COLUMN</item>
+        <item>COMMIT</item>
+        <item>CONFLICT</item>
+        <item>CONSTRAINT</item>
+        <item>CREATE</item>
+        <item>CROSS</item>
+        <item>CURRENT</item>
+        <item>CURRENT_DATE</item>
+        <item>CURRENT_TIME</item>
+        <item>CURRENT_TIMESTAMP</item>
+        <item>DATABASE</item>
+        <item>DEFAULT</item>
+        <item>DEFERRABLE</item>
+        <item>DEFERRED</item>
+        <item>DELETE</item>
+        <item>DESC</item>
+        <item>DETACH</item>
+        <item>DISTINCT</item>
+        <item>DO</item>
+        <item>DROP</item>
+        <item>EACH</item>
+        <item>ELSE</item>
+        <item>END</item>
+        <item>ESCAPE</item>
+        <item>EXCEPT</item>
+        <item>EXCLUDE</item>
+        <item>EXCLUSIVE</item>
+        <item>EXISTS</item>
+        <item>EXPLAIN</item>
+        <item>FAIL</item>
+        <item>FILTER</item>
+        <item>FIRST</item>
+        <item>FOLLOWING</item>
+        <item>FOR</item>
+        <item>FOREIGN</item>
+        <item>FROM</item>
+        <item>FULL</item>
+        <item>GENERATED</item>
+        <item>GLOB</item>
+        <item>GROUP</item>
+        <item>GROUPS</item>
+        <item>HAVING</item>
+        <item>IF</item>
+        <item>IGNORE</item>
+        <item>IMMEDIATE</item>
+        <item>IN</item>
+        <item>INDEX</item>
+        <item>INDEXED</item>
+        <item>INITIALLY</item>
+        <item>INNER</item>
+        <item>INSERT</item>
+        <item>INSTEAD</item>
+        <item>INTERSECT</item>
+        <item>INTO</item>
+        <item>IS</item>
+        <item>ISNULL</item>
+        <item>JOIN</item>
+        <item>KEY</item>
+        <item>LAST</item>
+        <item>LEFT</item>
+        <item>LIKE</item>
+        <item>LIMIT</item>
+        <item>MATCH</item>
+        <item>MATERIALIZED</item>
+        <item>NATURAL</item>
+        <item>NO</item>
+        <item>NOT</item>
+        <item>NOTHING</item>
+        <item>NOTNULL</item>
+        <item>NULL</item>
+        <item>NULLS</item>
+        <item>OF</item>
+        <item>OFFSET</item>
+        <item>ON</item>
+        <item>OR</item>
+        <item>ORDER</item>
+        <item>OTHERS</item>
+        <item>OUTER</item>
+        <item>OVER</item>
+        <item>PARTITION</item>
+        <item>PLAN</item>
+        <item>PRAGMA</item>
+        <item>PRECEDING</item>
+        <item>PRIMARY</item>
+        <item>QUERY</item>
+        <item>RAISE</item>
+        <item>RANGE</item>
+        <item>RECURSIVE</item>
+        <item>REFERENCES</item>
+        <item>REGEXP</item>
+        <item>REINDEX</item>
+        <item>RELEASE</item>
+        <item>RENAME</item>
+        <item>REPLACE</item>
+        <item>RESTRICT</item>
+        <item>RETURNING</item>
+        <item>RIGHT</item>
+        <item>ROLLBACK</item>
+        <item>ROW</item>
+        <item>ROWS</item>
+        <item>SAVEPOINT</item>
+        <item>SELECT</item>
+        <item>SET</item>
+        <item>TABLE</item>
+        <item>TEMP</item>
+        <item>TEMPORARY</item>
+        <item>THEN</item>
+        <item>TIES</item>
+        <item>TO</item>
+        <item>TRANSACTION</item>
+        <item>TRIGGER</item>
+        <item>UNBOUNDED</item>
+        <item>UNION</item>
+        <item>UNIQUE</item>
+        <item>UPDATE</item>
+        <item>USING</item>
+        <item>VACUUM</item>
+        <item>VALUES</item>
+        <item>VIEW</item>
+        <item>VIRTUAL</item>
+        <item>WHEN</item>
+        <item>WHERE</item>
+        <item>WINDOW</item>
+        <item>WITH</item>
+        <item>WITHOUT</item>
+    </string-array>
+    <string-array name="sql_commands">
+        <item>SELECT [columns]… FROM [table_name]; </item>
+        <item>SELECT * FROM [table_name]; </item>
+        <item>SELECT * FROM sqlite_master; </item>
+        <item>SELECT DISTINCT [columns]… FROM [table_name]; </item>
+        <item>SELECT [columns]… FROM [table_name] WHERE [condition]; </item>
+        <item>SELECT [columns]… FROM [table_name] WHERE NOT [condition]; </item>
+        <item>SELECT [columns]… FROM [table_name] WHERE IS NULL; </item>
+        <item>SELECT [columns]… FROM [table_name] WHERE [condition1] AND [condition2]; </item>
+        <item>SELECT [columns]… FROM [table_name] WHERE [condition1] OR [condition2]; </item>
+        <item>SELECT [columns]… FROM [table_name] WHERE [column] [comparison operators] [value]; </item>
+        <item>SELECT [columns]… FROM [table_name] WHERE [column] BETWEEN [value1] AND [value2]; </item>
+        <item>SELECT [columns]… FROM [table_name] WHERE [column] LIKE [pattern]; </item>
+        <item>SELECT [columns]… FROM [table_name] WHERE [column] IN ([column]…); </item>
+        <item>SELECT [columns]… FROM [table_name] WHERE [column] IN [SELECT STATEMENT]; </item>
+        <item>SELECT * FROM [table_name] ORDER BY [columns]… ASC; </item>
+        <item>SELECT * FROM [table_name] ORDER BY [columns]… DESC; </item>
+        <item>SELECT [column] AS [alias] FROM [table_name]; </item>
+        <item>SELECT [columns]… FROM [table_name] AS [alias]; </item>
+        <item>INSERT INTO [table_name] ( [columns]… ) VALUES ( [values1]… ), ( [values2]… ), …; </item>
+        <item>UPDATE [table_name] SET [column1] = [value1], [column2] = [value2], … WHERE [condition]; </item>
+        <item>DELETE FROM [table_name]; </item>
+        <item>DELETE FROM [table_name] WHERE [condition]; </item>
+        <item>CREATE TABLE IF NOT EXISTS [table_name] ( [id] INTEGER PRIMARY KEY AUTOINCREMENT, [column] [data type], … ); </item>
+        <item>CREATE VIEW [view_name] AS [sql_statement]; </item>
+        <item>DROP TABLE [table_name]; </item>
+        <item>CASE WHEN [condition1] THEN [result1]\n
+    WHEN [condition2] THEN [result2]\n
+    ELSE [result]\n
+END; </item>
+        <item>CREATE PROCEDURE [procedure_name]\n
+    AS\n
+    [sql_statement]\n
+GO;\n </item>
+        <item>EXEC [procedure_name]; </item>
+        <item>ALTER TABLE [table_name] ADD [column] [data type]; </item>
+        <item>ALTER TABLE [old_table] RENAME TO [new_table]; </item>
+        <item>PRAGMA [pragma_name] </item>
+        <item>PRAGMA [pragma_name]=[value] </item>
+        <item>BEGIN TRANSACTION; </item>
+        <item>COMMIT; </item>
+    </string-array>
+</resources>
